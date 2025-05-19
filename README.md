@@ -7,7 +7,7 @@ A simple and clean percentage calculator built using **HTML**, **CSS**, and **Ja
 ## 🖥️ Live Preview
 
 > *(If hosted, add link here — e.g. GitHub Pages or Netlify)*  
-> [Live Demo](https://your-live-demo-link.com)
+> [Live Demo](https://mdanassaifi.github.io/PERCENTAGE-CL/)
 
 ---
 
@@ -35,5 +35,5 @@ A simple and clean percentage calculator built using **HTML**, **CSS**, and **Ja
 
 ---
 
-## 📁 Folder Structure
+
 
