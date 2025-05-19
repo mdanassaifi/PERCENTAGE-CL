@@ -13,7 +13,7 @@ A simple and clean percentage calculator built using **HTML**, **CSS**, and **Ja
 
 ## 📸 Screenshot
 
-![Percentage Calculator Screenshot](screenshot.png)
+![Percentage Calculator Screenshot](calimg.png)
 
 ---
 
