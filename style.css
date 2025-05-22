@@ -1,21 +1,30 @@
+/* Reset the body layout */
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
   background: #f2f2f2;
-  margin: 0;
+}
+
+/* Page wrapper that takes full height */
+.container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+/* Centered calculator */
 .calculator {
   background: #fff;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
-  margin: auto; /* vertically center */
+  margin-bottom: 20px; /* spacing before footer */
 }
 
+/* Input fields */
 input {
   padding: 10px;
   margin: 10px;
@@ -23,6 +32,7 @@ input {
   font-size: 16px;
 }
 
+/* Button styling */
 button {
   padding: 10px 20px;
   background-color: #4CAF50;
@@ -44,11 +54,11 @@ button:hover {
   color: #333;
 }
 
+/* Footer styling */
 footer {
   background-color: #333;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 15px 0;
-  font-size: 14px;
-  margin-top: auto;
+  width: 100%;
 }
