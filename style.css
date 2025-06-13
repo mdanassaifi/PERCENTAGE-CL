@@ -42,6 +42,7 @@ button:hover {
   margin-top: 20px;
   font-size: 20px;
   color: #333;
+  line-height: 1.5;
 }
 
 .made-by {
@@ -54,4 +55,16 @@ button:hover {
 .made-by:hover {
   color: red;
   cursor: pointer;
+}
+
+/* Mobile Responsive */
+@media (max-width: 500px) {
+  .calculator {
+    width: 90%;
+    padding: 20px;
+  }
+
+  input {
+    width: 100%;
+  }
 }
