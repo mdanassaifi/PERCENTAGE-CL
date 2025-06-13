@@ -8,16 +8,17 @@ function calculatePercentage() {
     return;
   }
 
-  const result = ((percent / 100) * total).toFixed(2);
+  const discount = ((percent / 100) * total).toFixed(2);
+  const payable = (total - discount).toFixed(2);
 
   resultDiv.innerHTML = `
-    <p>📌 <strong>${percent}%</strong> of <strong>${total}</strong> is <strong>${result}</strong></p>
+    <p>✅ <strong>${percent}%</strong> of <strong>${total}</strong> is <strong>${discount}</strong></p>
     <p>💰 <strong>Total Amount:</strong> ${total}</p>
-    <p>🧮 <strong>Calculated Value:</strong> ${result}</p>
+    <p>💸 <strong>Payable Amount After Discount:</strong> ${payable}</p>
   `;
 }
 
-// Enter key triggers calculate
+// Enter key triggers calculation
 document.addEventListener("keydown", function(e) {
   if (e.key === "Enter") {
     calculatePercentage();
